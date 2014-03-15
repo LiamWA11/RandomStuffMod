@@ -23,7 +23,7 @@ public class RandomStuffMain {
 	
 	
 	public static final String modid = "randomstuff";
-	public static final String version = "1.0";
+	public static final String version = "0.01 ALPHA";
 	
 	@EventHandler
 	public void preinit(FMLPreInitializationEvent event){
