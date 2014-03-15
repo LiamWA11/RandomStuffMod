@@ -25,6 +25,7 @@ public class ItemsMain extends RandomStuffMain{
 	 public static Item gemRuby;
 	 public static Item shovelRuby;
 	 public static Item pickaxeRuby;
+	 public static Item axeRuby;
 	 
 	 public static void loadItems(){
 		 
@@ -42,6 +43,15 @@ public class ItemsMain extends RandomStuffMain{
 		 GameRegistry.registerItem(pickaxeRuby, "pickaxeRuby");
 		 GameRegistry.addRecipe(new ItemStack(pickaxeRuby), new Object[]{
 			 "AAA", " B ", " B ", 'A', gemRuby, 'B', Items.stick
+		 });
+		 
+		 axeRuby = new CustomAxe(MATERIALgemRuby).setUnlocalizedName("axeRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "axeRuby");
+		 GameRegistry.registerItem(axeRuby, "axeRuby");
+		 GameRegistry.addRecipe(new ItemStack(axeRuby), new Object[]{
+			 "AA ", "AB ", " B ", 'A', gemRuby, 'B', Items.stick
+		 });
+		 GameRegistry.addRecipe(new ItemStack(axeRuby), new Object[]{
+		     " AA", " BA", " B ", 'A', gemRuby, 'B', Items.stick
 		 });
 	 }
 	    
