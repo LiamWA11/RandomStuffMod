@@ -1,4 +1,6 @@
 itemGroup.itemsTab=Random Stuff Items
+itemGroup.toolsTab=Random Stuff Tools
 
 item.gemRuby.name=Ruby
 item.shovelRuby.name=Ruby Shovel
+item.pickaxeRuby.name=Ruby Pickaxe

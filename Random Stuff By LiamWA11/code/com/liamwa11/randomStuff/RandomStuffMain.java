@@ -5,6 +5,7 @@ import net.minecraftforge.common.util.EnumHelper;
 
 import com.liamwa11.randomStuff.items.ItemsMain;
 import com.liamwa11.randomStuff.materials.MaterialsMain;
+import com.liamwa11.randomStuff.recipe.ShapedRecipiesMain;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -26,8 +27,16 @@ public class RandomStuffMain {
 	
 	@EventHandler
 	public void preinit(FMLPreInitializationEvent event){
+		 
+
+		
 		ItemsMain.loadItems();
 		MaterialsMain.loadMaterials();
-	}
+		ShapedRecipiesMain.loadShapedRecipies();
+		
 
+	}
+	
 }
+
+
