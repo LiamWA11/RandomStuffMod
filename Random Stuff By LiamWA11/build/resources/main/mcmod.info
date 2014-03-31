@@ -1,0 +1,16 @@
+[
+{
+  "modid": "randomstuff",
+  "name": "Random Stuff Mod",
+  "description": "This is a mod made by LiamWA11 that adds lots of random things to Minecraft",
+  "version": "0.01 ALPHA",
+  "mcversion": "${mcversion}",
+  "url": "github.com/liamwa11/RandomStuffMod",
+  "updateUrl": "",
+  "authors": ["LiamWA11"],
+  "credits": "To all the people who will and have contributed and to LiamWA11",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

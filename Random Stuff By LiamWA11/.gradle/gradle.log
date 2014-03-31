@@ -1,0 +1,369 @@
+****************************
+ Powered By MCP:            
+ http://mcp.ocean-labs.de/  
+ Searge, ProfMobius, Fesh0r,
+ R4wk, ZeuX, IngisKahn      
+Resolving:  MCP Data version : {MCP_VERSION}
+Resolved:   MCP Data version : unknown
+ MCP Data version : unknown
+****************************
+Resolving: {BUILD_DIR}/unpacked/dev.json
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/dev.json
+Resolving: {BUILD_DIR}/unpacked/dev.json
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/dev.json
+ADDING NATIVE: C:\Users\Liam Angus\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.0\3f11873dc8e84c854ec7c5a8fd2e869f8aaef764\lwjgl-platform-2.9.0-natives-windows.jar
+ADDING NATIVE: C:\Users\Liam Angus\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+Failed to get resource: GET. [HTTP HTTP/1.1 403 Forbidden: https://libraries.minecraft.net/net/minecraftforge/forge/1.7.2-10.12.0.997/forge-1.7.2-10.12.0.997.pom]
+Resolving: {CACHE_DIR}/minecraft/net/minecraftforge/forge/{API_VERSION}/forge-{API_VERSION}-decomp.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.997/forge-1.7.2-10.12.0.997-decomp.jar
+Resolving: {CACHE_DIR}/minecraft/net/minecraftforge/forge/{API_VERSION}/forge-{API_VERSION}-fmlinjected.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.997/forge-1.7.2-10.12.0.997-fmlinjected.jar
+Resolving: {BUILD_DIR}/tmp/recompCls
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/tmp/recompCls
+Resolving: {CACHE_DIR}/minecraft/net/minecraftforge/forge/{API_VERSION}/forgeSrc-{API_VERSION}.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.997/forgeSrc-1.7.2-10.12.0.997.jar
+Resolving: {CACHE_DIR}/minecraft/net/minecraftforge/forge/{API_VERSION}
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.997
+Adding repo to : >> C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.2-10.12.0.997
+Resolving: {BUILD_DIR}/natives
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/natives
+Resolving: {ASSET_DIR}
+Resolved:  eclipse/assets
+Resolving: {ASSET_DIR}
+Resolved:  eclipse/assets
+Resolving: {BUILD_DIR}/sources/java
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/sources/java
+Resolving: {CACHE_DIR}/minecraft/assets/indexes/legacy.json
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/assets/indexes/legacy.json
+Resolving: {CACHE_DIR}/minecraft/assets/indexes/{ASSET_INDEX}.json
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/assets/indexes/legacy.json
+All projects evaluated.
+Resolving: {BUILD_DIR}/unpacked/conf/exceptor.json
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/exceptor.json
+Resolving: {BUILD_DIR}/unpacked/conf/packaged.exc
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/packaged.exc
+Resolving: {CACHE_DIR}/minecraft/net/minecraftforge/forge/{API_VERSION}/forge-{API_VERSION}-binPatched.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.997/forge-1.7.2-10.12.0.997-binPatched.jar
+Resolving: {BUILD_DIR}/unpacked/conf/notch-mcp.srg
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/notch-mcp.srg
+Resolving: {BUILD_DIR}/unpacked/src/main/resources/fml_at.cfg
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources/fml_at.cfg
+Resolving: {BUILD_DIR}/unpacked/src/main/resources/forge_at.cfg
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources/forge_at.cfg
+Resolving: {BUILD_DIR}/unpacked/src/main/resources
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources
+Resolving: {BUILD_DIR}/unpacked/binaries.jar
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/binaries.jar
+Resolving: {BUILD_DIR}/unpacked/devbinpatches.pack.lzma
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/devbinpatches.pack.lzma
+Resolving: {CACHE_DIR}/minecraft/net/minecraft/minecraft_merged/{MC_VERSION}/minecraft_merged-{MC_VERSION}.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraft/minecraft_merged/1.7.2/minecraft_merged-1.7.2.jar
+Resolving: {CACHE_DIR}/minecraft/net/minecraft/minecraft_server/{MC_VERSION}/minecraft_server-{MC_VERSION}.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraft/minecraft_server/1.7.2/minecraft_server-1.7.2.jar
+Resolving: {CACHE_DIR}/minecraft/net/minecraft/minecraft/{MC_VERSION}/minecraft-{MC_VERSION}.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraft/minecraft/1.7.2/minecraft-1.7.2.jar
+Resolving: {BUILD_DIR}/unpacked/conf/mcp_merge.cfg
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/mcp_merge.cfg
+Resolving: C:\Users\Liam Angus\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forge\1.7.2-10.12.0.997\63499a4b5306350cc2e1e70bd11ec8f7fe39f985\forge-1.7.2-10.12.0.997-userdev.jar
+Resolved:  C:\Users\Liam Angus\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forge\1.7.2-10.12.0.997\63499a4b5306350cc2e1e70bd11ec8f7fe39f985\forge-1.7.2-10.12.0.997-userdev.jar
+Resolving: {BUILD_DIR}/unpacked/conf/packaged.srg
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/packaged.srg
+Resolving: {BUILD_DIR}/unpacked/conf/methods.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/methods.csv
+Resolving: {BUILD_DIR}/unpacked/mappings/methods.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/mappings/methods.csv
+Resolving: {BUILD_DIR}/unpacked/conf/fields.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/fields.csv
+Resolving: {BUILD_DIR}/unpacked/mappings/fields.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/mappings/fields.csv
+Resolving: {BUILD_DIR}/unpacked/conf/mcp-srg.srg
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/mcp-srg.srg
+Selected primary task 'build'
+Tasks to be executed: [task ':downloadClient', task ':downloadServer', task ':extractUserDev', task ':mergeJars', task ':applyBinPatches', task ':downloadMcpTools', task ':genSrgs', task ':getJavadocs', task ':deobfBinJar', task ':compileApiJava', task ':processApiResources', task ':apiClasses', task ':sourceMainJava', task ':compileJava', task ':processResources', task ':classes', task ':jar', task ':reobf', task ':assemble', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test', task ':check', task ':build']
+:downloadClient (Thread[main,5,main]) started.
+:downloadClient
+Resolving: {CACHE_DIR}/minecraft/net/minecraft/minecraft/{MC_VERSION}/minecraft-{MC_VERSION}.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraft/minecraft/1.7.2/minecraft-1.7.2.jar
+Resolving: http://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/{MC_VERSION}.jar
+Resolved:  http://s3.amazonaws.com/Minecraft.Download/versions/1.7.2/1.7.2.jar
+1ac4d448876d1b9cf94c5939e1c6baec http://s3.amazonaws.com/Minecraft.Download/versions/1.7.2/1.7.2.jar
+Cached file found: C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraft\minecraft\1.7.2\minecraft-1.7.2.jar
+Checksums found: 7a304554fdea879a799efe6eaedd8c95
+1ac4d448876d1b9cf94c5939e1c6baec
+Checksums calculated: 7a304554fdea879a799efe6eaedd8c95
+1ac4d448876d1b9cf94c5939e1c6baec
+Skipping task ':downloadClient' as task onlyIf is false.
+:downloadClient SKIPPED
+:downloadClient (Thread[main,5,main]) completed. Took 0.328 secs.
+:downloadServer (Thread[main,5,main]) started.
+:downloadServer
+Resolving: {CACHE_DIR}/minecraft/net/minecraft/minecraft_server/{MC_VERSION}/minecraft_server-{MC_VERSION}.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraft/minecraft_server/1.7.2/minecraft_server-1.7.2.jar
+Resolving: http://s3.amazonaws.com/Minecraft.Download/versions/{MC_VERSION}/minecraft_server.{MC_VERSION}.jar
+Resolved:  http://s3.amazonaws.com/Minecraft.Download/versions/1.7.2/minecraft_server.1.7.2.jar
+5dda2b1a8ee1733ea33eaf28afea31a3 http://s3.amazonaws.com/Minecraft.Download/versions/1.7.2/minecraft_server.1.7.2.jar
+Cached file found: C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraft\minecraft_server\1.7.2\minecraft_server-1.7.2.jar
+Checksums found: c48168f463e935262ea65b702f175153
+5dda2b1a8ee1733ea33eaf28afea31a3
+Checksums calculated: c48168f463e935262ea65b702f175153
+5dda2b1a8ee1733ea33eaf28afea31a3
+Skipping task ':downloadServer' as task onlyIf is false.
+:downloadServer SKIPPED
+:downloadServer (Thread[main,5,main]) completed. Took 0.326 secs.
+:extractUserDev (Thread[main,5,main]) started.
+:extractUserDev
+Executing task ':extractUserDev' (up-to-date check took 0.001 secs) due to:
+  Task has not declared any outputs.
+Resolving: {BUILD_DIR}/unpacked
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked
+Resolving: {BUILD_DIR}/unpacked/dev.json
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/dev.json
+:extractUserDev (Thread[main,5,main]) completed. Took 2.165 secs.
+:mergeJars (Thread[main,5,main]) started.
+:mergeJars
+Resolving: {CACHE_DIR}/minecraft/net/minecraft/minecraft_merged/{MC_VERSION}/minecraft_merged-{MC_VERSION}.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraft/minecraft_merged/1.7.2/minecraft_merged-1.7.2.jar
+7cc94eca9dda9d8e0efb6539345b4fc8 C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\build\unpacked\conf\mcp_merge.cfg
+7a304554fdea879a799efe6eaedd8c95 C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraft\minecraft\1.7.2\minecraft-1.7.2.jar
+c48168f463e935262ea65b702f175153 C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraft\minecraft_server\1.7.2\minecraft_server-1.7.2.jar
+Cached file found: C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraft\minecraft_merged\1.7.2\minecraft_merged-1.7.2.jar
+Checksums found: 06a85ad636e259ddee8a8087c86973ab
+7cc94eca9dda9d8e0efb6539345b4fc8
+7a304554fdea879a799efe6eaedd8c95
+c48168f463e935262ea65b702f175153
+Checksums calculated: 06a85ad636e259ddee8a8087c86973ab
+7cc94eca9dda9d8e0efb6539345b4fc8
+7a304554fdea879a799efe6eaedd8c95
+c48168f463e935262ea65b702f175153
+Skipping task ':mergeJars' as task onlyIf is false.
+:mergeJars SKIPPED
+:mergeJars (Thread[main,5,main]) completed. Took 0.477 secs.
+:applyBinPatches (Thread[main,5,main]) started.
+:applyBinPatches
+Resolving: {CACHE_DIR}/minecraft/net/minecraftforge/forge/{API_VERSION}/forge-{API_VERSION}-binPatched.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.997/forge-1.7.2-10.12.0.997-binPatched.jar
+06a85ad636e259ddee8a8087c86973ab C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraft\minecraft_merged\1.7.2\minecraft_merged-1.7.2.jar
+e04b8fa91469a518708d8756712c688d C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\build\unpacked\binaries.jar
+43f97795e6fc0c6ff8f1aed0ffa03e29 C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\build\unpacked\devbinpatches.pack.lzma
+924613d23bd91d9e87d77eddcfdaa482 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+9185bec1f2f924a4c434915092878cd4 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+2bf3b9e5d282c687e5ff254113aed41d directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+b90ba544061d56ca161e9616e4e42351 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+44b43346899b822020b1d9d516c21486 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+930fe9f6deacc9561001db8aa53224ea directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+aad771ff4bb3a6c7875576ca9a428b47 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+0387dda2e8138ab4262579c906d1fbb3 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+bea067fddbb9517b6c1bd8dc1c531939 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+b8ebc4fea0203ba384bb82138fba3873 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+4e97d545a0a479c6005ae1a01d8fb818 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+35a906e0f89892106f83b8e06ee2989d directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+3f0a227b841dc0d9b7f9a4eb31ae0771 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+d502d7e510b758c0d5f1a27ef712adc2 directory 'C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/src/main/resources'
+Cached file found: C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.2-10.12.0.997\forge-1.7.2-10.12.0.997-binPatched.jar
+Checksums found: d15763b78e2ecf76e3cdad3a841b0bd4
+06a85ad636e259ddee8a8087c86973ab
+e04b8fa91469a518708d8756712c688d
+43f97795e6fc0c6ff8f1aed0ffa03e29
+924613d23bd91d9e87d77eddcfdaa482
+9185bec1f2f924a4c434915092878cd4
+2bf3b9e5d282c687e5ff254113aed41d
+b90ba544061d56ca161e9616e4e42351
+44b43346899b822020b1d9d516c21486
+930fe9f6deacc9561001db8aa53224ea
+aad771ff4bb3a6c7875576ca9a428b47
+0387dda2e8138ab4262579c906d1fbb3
+bea067fddbb9517b6c1bd8dc1c531939
+b8ebc4fea0203ba384bb82138fba3873
+4e97d545a0a479c6005ae1a01d8fb818
+35a906e0f89892106f83b8e06ee2989d
+3f0a227b841dc0d9b7f9a4eb31ae0771
+d502d7e510b758c0d5f1a27ef712adc2
+Checksums calculated: d15763b78e2ecf76e3cdad3a841b0bd4
+06a85ad636e259ddee8a8087c86973ab
+e04b8fa91469a518708d8756712c688d
+43f97795e6fc0c6ff8f1aed0ffa03e29
+924613d23bd91d9e87d77eddcfdaa482
+9185bec1f2f924a4c434915092878cd4
+2bf3b9e5d282c687e5ff254113aed41d
+b90ba544061d56ca161e9616e4e42351
+44b43346899b822020b1d9d516c21486
+930fe9f6deacc9561001db8aa53224ea
+aad771ff4bb3a6c7875576ca9a428b47
+0387dda2e8138ab4262579c906d1fbb3
+bea067fddbb9517b6c1bd8dc1c531939
+b8ebc4fea0203ba384bb82138fba3873
+4e97d545a0a479c6005ae1a01d8fb818
+35a906e0f89892106f83b8e06ee2989d
+3f0a227b841dc0d9b7f9a4eb31ae0771
+d502d7e510b758c0d5f1a27ef712adc2
+Skipping task ':applyBinPatches' as task onlyIf is false.
+:applyBinPatches SKIPPED
+:applyBinPatches (Thread[main,5,main]) completed. Took 3.911 secs.
+:downloadMcpTools (Thread[main,5,main]) started.
+:downloadMcpTools
+Resolving: {CACHE_DIR}/minecraft/fernflower.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/fernflower.jar
+Resolving: http://files.minecraftforge.net/fernflower_temporary.zip
+Resolved:  http://files.minecraftforge.net/fernflower_temporary.zip
+Skipping task ':downloadMcpTools' as it is up-to-date (took 13.607 secs).
+:downloadMcpTools UP-TO-DATE
+:downloadMcpTools (Thread[main,5,main]) completed. Took 14.977 secs.
+:genSrgs (Thread[main,5,main]) started.
+:genSrgs
+Resolving: {BUILD_DIR}/unpacked/conf/methods.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/methods.csv
+Resolving: {BUILD_DIR}/unpacked/mappings/methods.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/mappings/methods.csv
+Resolving: {BUILD_DIR}/unpacked/conf/fields.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/fields.csv
+Resolving: {BUILD_DIR}/unpacked/mappings/fields.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/mappings/fields.csv
+Resolving: {BUILD_DIR}/unpacked/conf/notch-mcp.srg
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/notch-mcp.srg
+Resolving: {BUILD_DIR}/unpacked/conf/mcp-srg.srg
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/mcp-srg.srg
+Resolving: {BUILD_DIR}/unpacked/conf/mcp-notch.srg
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/mcp-notch.srg
+Resolving: {BUILD_DIR}/unpacked/conf/methods.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/methods.csv
+Resolving: {BUILD_DIR}/unpacked/mappings/methods.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/mappings/methods.csv
+Resolving: {BUILD_DIR}/unpacked/conf/fields.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/conf/fields.csv
+Resolving: {BUILD_DIR}/unpacked/mappings/fields.csv
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/unpacked/mappings/fields.csv
+Skipping task ':genSrgs' as it is up-to-date (took 0.065 secs).
+:genSrgs UP-TO-DATE
+:genSrgs (Thread[main,5,main]) completed. Took 0.138 secs.
+:getJavadocs (Thread[main,5,main]) started.
+:getJavadocs
+Resolving: {CACHE_DIR}/minecraft/net/minecraftforge/forge/{API_VERSION}/forgeBin-{API_VERSION}-javadoc.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.997/forgeBin-1.7.2-10.12.0.997-javadoc.jar
+Resolving: http://files.minecraftforge.net/maven/net/minecraftforge/forge/{API_VERSION}/forge-{API_VERSION}-javadoc.zip
+Resolved:  http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.2-10.12.0.997/forge-1.7.2-10.12.0.997-javadoc.zip
+4be55341945deede9ed2e344ed562e0a http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.2-10.12.0.997/forge-1.7.2-10.12.0.997-javadoc.zip
+Cached file found: C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.2-10.12.0.997\forgeBin-1.7.2-10.12.0.997-javadoc.jar
+Checksums found: 7bcd8c291031048932e0c03343bf5f90
+4be55341945deede9ed2e344ed562e0a
+Checksums calculated: 7bcd8c291031048932e0c03343bf5f90
+4be55341945deede9ed2e344ed562e0a
+Skipping task ':getJavadocs' as task onlyIf is false.
+:getJavadocs SKIPPED
+:getJavadocs (Thread[main,5,main]) completed. Took 15.053 secs.
+:deobfBinJar (Thread[main,5,main]) started.
+:deobfBinJar
+Resolving: {CACHE_DIR}/minecraft/net/minecraftforge/forge/{API_VERSION}/forgeBin-{API_VERSION}.jar
+Resolved:  C:/Users/Liam Angus/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.997/forgeBin-1.7.2-10.12.0.997.jar
+d15763b78e2ecf76e3cdad3a841b0bd4 C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.2-10.12.0.997\forge-1.7.2-10.12.0.997-binPatched.jar
+d42dd9b30c16d5bdbbc09aaab6499b3f C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\build\unpacked\conf\notch-mcp.srg
+825e25adca54b0d9dd6ced535f2cfefe C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\build\unpacked\conf\packaged.exc
+9eabd4018820dc14923d4bf2f4a39390 C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\build\unpacked\conf\exceptor.json
+2bf3b9e5d282c687e5ff254113aed41d file collection
+44b43346899b822020b1d9d516c21486 file collection
+Cached file found: C:\Users\Liam Angus\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.2-10.12.0.997\forgeBin-1.7.2-10.12.0.997.jar
+Checksums found: c1edd4b318049cef3cba8e3ffb8de17b
+d15763b78e2ecf76e3cdad3a841b0bd4
+d42dd9b30c16d5bdbbc09aaab6499b3f
+825e25adca54b0d9dd6ced535f2cfefe
+9eabd4018820dc14923d4bf2f4a39390
+2bf3b9e5d282c687e5ff254113aed41d
+44b43346899b822020b1d9d516c21486
+Checksums calculated: c1edd4b318049cef3cba8e3ffb8de17b
+d15763b78e2ecf76e3cdad3a841b0bd4
+d42dd9b30c16d5bdbbc09aaab6499b3f
+825e25adca54b0d9dd6ced535f2cfefe
+9eabd4018820dc14923d4bf2f4a39390
+2bf3b9e5d282c687e5ff254113aed41d
+44b43346899b822020b1d9d516c21486
+Resolving: {BUILD_DIR}/dirtyArtifacts/forgeBin-{API_VERSION}.jar
+Resolved:  C:/Users/Liam Angus/Desktop/DEVELOPMENT/1.6 Mod Dev Pahimar/ECLIPSE 1.7.2/Random Stuff By LiamWA11/build/dirtyArtifacts/forgeBin-1.7.2-10.12.0.997.jar
+Skipping task ':deobfBinJar' as it is up-to-date (took 0.02 secs).
+:deobfBinJar UP-TO-DATE
+:deobfBinJar (Thread[main,5,main]) completed. Took 4.527 secs.
+:compileApiJava (Thread[main,5,main]) started.
+:compileApiJava
+Skipping task ':compileApiJava' as it has no source files.
+:compileApiJava UP-TO-DATE
+:compileApiJava (Thread[main,5,main]) completed. Took 0.012 secs.
+:processApiResources (Thread[main,5,main]) started.
+:processApiResources
+Skipping task ':processApiResources' as it has no source files.
+:processApiResources UP-TO-DATE
+:processApiResources (Thread[main,5,main]) completed. Took 0.018 secs.
+:apiClasses (Thread[main,5,main]) started.
+:apiClasses
+Skipping task ':apiClasses' as it has no actions.
+:apiClasses UP-TO-DATE
+:apiClasses (Thread[main,5,main]) completed. Took 0.011 secs.
+:sourceMainJava (Thread[main,5,main]) started.
+:sourceMainJava
+Skipping task ':sourceMainJava' as it is up-to-date (took 0.029 secs).
+:sourceMainJava UP-TO-DATE
+:sourceMainJava (Thread[main,5,main]) completed. Took 0.04 secs.
+:compileJava (Thread[main,5,main]) started.
+:compileJava
+Failed to get resource: GET. [HTTP HTTP/1.1 403 Forbidden: https://libraries.minecraft.net//forgeBin/1.7.2-10.12.0.997/forgeBin-1.7.2-10.12.0.997.pom]
+file or directory 'C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\libs', not found
+Skipping task ':compileJava' as it is up-to-date (took 14.605 secs).
+:compileJava UP-TO-DATE
+:compileJava (Thread[main,5,main]) completed. Took 14.665 secs.
+:processResources (Thread[main,5,main]) started.
+:processResources
+Skipping task ':processResources' as it is up-to-date (took 0.008 secs).
+:processResources UP-TO-DATE
+:processResources (Thread[main,5,main]) completed. Took 0.025 secs.
+:classes (Thread[main,5,main]) started.
+:classes
+Skipping task ':classes' as it has no actions.
+:classes UP-TO-DATE
+:classes (Thread[main,5,main]) completed. Took 0.009 secs.
+:jar (Thread[main,5,main]) started.
+:jar
+Executing task ':jar' (up-to-date check took 0.489 secs) due to:
+  Output file C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\build\libs\tutorial-1.7.2-0.01.jar has changed.
+:jar (Thread[main,5,main]) completed. Took 5.333 secs.
+:reobf (Thread[main,5,main]) started.
+:reobf
+Executing task ':reobf' (up-to-date check took 0.006 secs) due to:
+  Output file C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\build\libs\tutorial-1.7.2-0.01.jar has changed.
+file or directory 'C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\libs', not found
+:reobf (Thread[main,5,main]) completed. Took 1.76 secs.
+:assemble (Thread[main,5,main]) started.
+:assemble
+Skipping task ':assemble' as it has no actions.
+:assemble (Thread[main,5,main]) completed. Took 0.007 secs.
+:compileTestJava (Thread[main,5,main]) started.
+:compileTestJava
+Skipping task ':compileTestJava' as it has no source files.
+:compileTestJava UP-TO-DATE
+:compileTestJava (Thread[main,5,main]) completed. Took 0.011 secs.
+:processTestResources (Thread[main,5,main]) started.
+:processTestResources
+Skipping task ':processTestResources' as it has no source files.
+:processTestResources UP-TO-DATE
+:processTestResources (Thread[main,5,main]) completed. Took 0.012 secs.
+:testClasses (Thread[main,5,main]) started.
+:testClasses
+Skipping task ':testClasses' as it has no actions.
+:testClasses UP-TO-DATE
+:testClasses (Thread[main,5,main]) completed. Took 0.01 secs.
+:test (Thread[main,5,main]) started.
+:test
+file or directory 'C:\Users\Liam Angus\Desktop\DEVELOPMENT\1.6 Mod Dev Pahimar\ECLIPSE 1.7.2\Random Stuff By LiamWA11\build\classes\test', not found
+Skipping task ':test' as it has no source files.
+:test UP-TO-DATE
+:test (Thread[main,5,main]) completed. Took 0.016 secs.
+:check (Thread[main,5,main]) started.
+:check
+Skipping task ':check' as it has no actions.
+:check UP-TO-DATE
+:check (Thread[main,5,main]) completed. Took 0.011 secs.
+:build (Thread[main,5,main]) started.
+:build
+Skipping task ':build' as it has no actions.
+:build (Thread[main,5,main]) completed. Took 0.007 secs.
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 24.429 secs
+Stopped 0 compiler daemon(s).

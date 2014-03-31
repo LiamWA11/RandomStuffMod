@@ -1,7 +1,11 @@
 itemGroup.itemsTab=Random Stuff Items
 itemGroup.toolsTab=Random Stuff Tools
+itemGroup.blocksTab=Random Stuff Blocks
 
 item.gemRuby.name=Ruby
 item.shovelRuby.name=Ruby Shovel
 item.pickaxeRuby.name=Ruby Pickaxe
 item.axeRuby.name=Ruby Axe
+
+tile.blockRuby.name=Ruby Block
+tile.oreRuby.name=Ruby Ore

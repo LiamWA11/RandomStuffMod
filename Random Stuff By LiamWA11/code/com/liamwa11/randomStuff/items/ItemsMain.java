@@ -13,7 +13,7 @@ public class ItemsMain extends RandomStuffMain{
 
 	 public static CreativeTabs itemsTab = new CreativeTabs("itemsTab"){
 	    	public Item getTabIconItem(){
-			return gemRuby;}
+			return ItemsMain.gemRuby;}
 	    };
 	    
 	 public static CreativeTabs toolsTab = new CreativeTabs("toolsTab"){
@@ -35,24 +35,15 @@ public class ItemsMain extends RandomStuffMain{
 		 //ITEM + RECIPE
 		 shovelRuby = new CustomShovel(MATERIALgemRuby).setUnlocalizedName("shovelRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "shovelRuby");
 		 GameRegistry.registerItem(shovelRuby, "shovelRuby");
-		 GameRegistry.addRecipe(new ItemStack(shovelRuby), new Object[]{
-				"A","B","B", 'A', gemRuby, 'B', Items.stick
-		 });
+
 		 
 		 pickaxeRuby = new CustomPickaxe(MATERIALgemRuby).setUnlocalizedName("pickaxeRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "pickaxeRuby");
 		 GameRegistry.registerItem(pickaxeRuby, "pickaxeRuby");
-		 GameRegistry.addRecipe(new ItemStack(pickaxeRuby), new Object[]{
-			 "AAA", " B ", " B ", 'A', gemRuby, 'B', Items.stick
-		 });
+
 		 
 		 axeRuby = new CustomAxe(MATERIALgemRuby).setUnlocalizedName("axeRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "axeRuby");
 		 GameRegistry.registerItem(axeRuby, "axeRuby");
-		 GameRegistry.addRecipe(new ItemStack(axeRuby), new Object[]{
-			 "AA ", "AB ", " B ", 'A', gemRuby, 'B', Items.stick
-		 });
-		 GameRegistry.addRecipe(new ItemStack(axeRuby), new Object[]{
-		     " AA", " BA", " B ", 'A', gemRuby, 'B', Items.stick
-		 });
+	
 	 }
 	    
 	
