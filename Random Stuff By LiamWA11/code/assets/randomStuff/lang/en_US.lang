@@ -6,6 +6,9 @@ item.gemRuby.name=Ruby
 item.shovelRuby.name=Ruby Shovel
 item.pickaxeRuby.name=Ruby Pickaxe
 item.axeRuby.name=Ruby Axe
+item.stirip.name=Saddle Stirip
+item.stiripDouble.name=Saddle Stirips
+item.buckle.name=Buckle
 
 tile.blockRuby.name=Ruby Block
 tile.oreRuby.name=Ruby Ore

@@ -26,25 +26,36 @@ public class ItemsMain extends RandomStuffMain{
 	 public static Item shovelRuby;
 	 public static Item pickaxeRuby;
 	 public static Item axeRuby;
+	 public static Item stirip;
+	 public static Item stiripDouble;
+	 public static Item buckle;
 	 
 	 public static void loadItems(){
 		 
 		 gemRuby = new Item().setCreativeTab(itemsTab).setUnlocalizedName("gemRuby").setTextureName(modid + ":" + "ruby");
 		 GameRegistry.registerItem(gemRuby, "Gem Ruby");
 		 
-		 //ITEM + RECIPE
+		 //ITEM
 		 shovelRuby = new CustomShovel(MATERIALgemRuby).setUnlocalizedName("shovelRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "shovelRuby");
 		 GameRegistry.registerItem(shovelRuby, "shovelRuby");
-
 		 
 		 pickaxeRuby = new CustomPickaxe(MATERIALgemRuby).setUnlocalizedName("pickaxeRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "pickaxeRuby");
 		 GameRegistry.registerItem(pickaxeRuby, "pickaxeRuby");
 
-		 
 		 axeRuby = new CustomAxe(MATERIALgemRuby).setUnlocalizedName("axeRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "axeRuby");
 		 GameRegistry.registerItem(axeRuby, "axeRuby");
-	
+
+	     stirip = new Item().setCreativeTab(itemsTab).setUnlocalizedName("stirip").setTextureName(modid + ":" + "stirip");
+	     GameRegistry.registerItem(stirip, "Saddle Stirip");
+	     
+	     stiripDouble = new Item().setCreativeTab(itemsTab).setUnlocalizedName("stiripDouble").setTextureName(modid + ":" + "stiripDouble");
+	     GameRegistry.registerItem(stiripDouble, "stirip Double");
+	     
+	     buckle = new Item().setCreativeTab(itemsTab).setUnlocalizedName("buckle").setTextureName(modid + ":" + "buckle");
+	     GameRegistry.registerItem(buckle, "Buckle");
+	     
 	 }
+	 
 	    
 	
 }

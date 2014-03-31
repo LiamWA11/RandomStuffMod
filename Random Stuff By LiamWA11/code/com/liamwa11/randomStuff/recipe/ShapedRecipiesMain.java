@@ -1,5 +1,6 @@
 package com.liamwa11.randomStuff.recipe;
 
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
@@ -30,8 +31,24 @@ public class ShapedRecipiesMain{
 		     " AA", " BA", " B ", 'A', ItemsMain.gemRuby, 'B', Items.stick
 		 });
 		
-		 CraftingManager.getInstance().addRecipe(new ItemStack(BlocksMain.blockRuby), new Object[]{
-			 "AAA", "AAA", "AAA", 'A', ItemsMain.gemRuby
+		 //CraftingManager.getInstance().addRecipe(new ItemStack(BlocksMain.blockRuby), new Object[]{
+			// "AAA", "AAA", "AAA", 'A', ItemsMain.gemRuby
+		 //});
+		 
+		 CraftingManager.getInstance().addRecipe(new ItemStack(Items.saddle), new Object[]{
+			"ABA", "C C", "D D", 'A', Items.leather, 'B', Blocks.wool, 'C', Items.string, 'D', ItemsMain.stiripDouble 
+		 });
+		 
+		 CraftingManager.getInstance().addRecipe(new ItemStack(ItemsMain.stirip), new Object[]{
+			" A ", "B C", "ADA", 'A', Items.iron_ingot, 'B', Items.leather, 'D', Blocks.iron_block, 'C', ItemsMain.buckle
+		 });
+		 
+		 CraftingManager.getInstance().addRecipe(new ItemStack(ItemsMain.stiripDouble), new Object[]{
+			 "AAA", "B B", "C C", 'A', Items.leather, 'B', Items.string, 'C', ItemsMain.stirip
+		 });
+		 
+		 CraftingManager.getInstance().addRecipe(new ItemStack(ItemsMain.buckle), new Object[]{
+			 "AAA", "BAB", "AAA", 'A', Items.iron_ingot, 'B', Items.leather 
 		 });
 	}
 	
