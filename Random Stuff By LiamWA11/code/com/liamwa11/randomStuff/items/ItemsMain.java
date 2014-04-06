@@ -35,14 +35,21 @@ public class ItemsMain extends RandomStuffMain{
 	 public static Item axeRuby;
 	 public static Item swordRuby;
 	 
-	 public static Item stirip;
-	 public static Item stiripDouble;
-	 public static Item buckle;
+	 public static Item stirip; //NEED TEXTURE
+	 public static Item stiripDouble; //NEED TEXTURE
+	 public static Item buckle; //NEED TEXTURE
+	 
+	 public static Item gemRubyHeated; //For Making HARDENED TOOLS - ALLOYS/REENFORCED MATERIAL
 	 
 	 public static Item swordRubyHeated;
+	 public static Item axeRubyHeated; //Need to complete
+	 public static Item pickaxeRubyHeated; //Need to complete
+	 public static Item shovelRubyHeated; //Need to complete
+	 
 	 
 	 public static Item swordRubyInfusedIron;
 	 public static Item swordrubyInfusedGold;
+	 public static Item swordRubyInfusedDiamond; //Need to complete
 	 
 	 public static void loadItems(){
 		 
