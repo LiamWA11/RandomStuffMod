@@ -17,6 +17,7 @@ public class BlocksMain {
 	
 	public static Block blockRuby;
 	public static Block oreRuby;
+	//public static Block testTileBlock;
 	
 	public static void loadBlocks(){
 		
@@ -26,6 +27,8 @@ public class BlocksMain {
 		
 		oreRuby = new oreRuby().setBlockName("oreRuby").setCreativeTab(blocksTab).setBlockTextureName(RandomStuffMain.modid + ":" + "oreRuby");
 		GameRegistry.registerBlock(oreRuby, "oreRuby");
+		
+		//testTileBlock = new TestTileBlock();
 	}
 	
 	

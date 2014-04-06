@@ -20,22 +20,39 @@ public class ItemsMain extends RandomStuffMain{
 		 public Item getTabIconItem(){
 			 return pickaxeRuby;}
 		 };
+		 
+     public static CreativeTabs weaponsTab = new CreativeTabs("weaponsTab"){
+    	 public Item getTabIconItem(){
+    		 return swordRuby;
+    	 }
+    	 };
+     
 	 
 	    
 	 public static Item gemRuby;
 	 public static Item shovelRuby;
 	 public static Item pickaxeRuby;
 	 public static Item axeRuby;
+	 public static Item swordRuby;
+	 
 	 public static Item stirip;
 	 public static Item stiripDouble;
 	 public static Item buckle;
 	 
+	 public static Item swordRubyHeated;
+	 
+	 public static Item swordRubyInfusedIron;
+	 public static Item swordrubyInfusedGold;
+	 
 	 public static void loadItems(){
 		 
+		 //Gems
 		 gemRuby = new Item().setCreativeTab(itemsTab).setUnlocalizedName("gemRuby").setTextureName(modid + ":" + "ruby");
 		 GameRegistry.registerItem(gemRuby, "Gem Ruby");
 		 
-		 //ITEM
+		 
+		 
+		 //Tools
 		 shovelRuby = new CustomShovel(MATERIALgemRuby).setUnlocalizedName("shovelRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "shovelRuby");
 		 GameRegistry.registerItem(shovelRuby, "shovelRuby");
 		 
@@ -45,6 +62,22 @@ public class ItemsMain extends RandomStuffMain{
 		 axeRuby = new CustomAxe(MATERIALgemRuby).setUnlocalizedName("axeRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "axeRuby");
 		 GameRegistry.registerItem(axeRuby, "axeRuby");
 
+		 
+		 
+		 //WEAPON
+		 swordRuby = new CustomSword(MATERIALgemRuby).setUnlocalizedName("swordRuby").setCreativeTab(weaponsTab).setTextureName(modid + ":" + "swordRuby");
+		 GameRegistry.registerItem(swordRuby, "swordRuby");
+		 
+		 swordRubyHeated = new CustomSword(MATERIALgemRubyHeated).setUnlocalizedName("swordRubyHeated").setCreativeTab(weaponsTab).setTextureName(modid + ":" + "swordRubyHeated");
+		 GameRegistry.registerItem(swordRubyHeated, "swordRubyHeated");
+		 
+		 swordRubyInfusedIron = new CustomSword(MATERIALgemRubyInfusedIron).setUnlocalizedName("swordRubyInfusedIron").setCreativeTab(weaponsTab).setTextureName(modid + ":" + "swordRubyInfusedIron");
+		 GameRegistry.registerItem(swordRubyInfusedIron, "swordRubyInfusedIron");
+		 
+		 swordrubyInfusedGold = new CustomSword(MATERIALgemRubyInfusedGold).setUnlocalizedName("swordrubyInfusedGold").setCreativeTab(weaponsTab).setTextureName(modid + ":" + "swordrubyInfusedGold");
+		 GameRegistry.registerItem(swordrubyInfusedGold, "swordrubyInfusedGold");
+		 
+		 //Items
 	     stirip = new Item().setCreativeTab(itemsTab).setUnlocalizedName("stirip").setTextureName(modid + ":" + "stirip");
 	     GameRegistry.registerItem(stirip, "Saddle Stirip");
 	     
