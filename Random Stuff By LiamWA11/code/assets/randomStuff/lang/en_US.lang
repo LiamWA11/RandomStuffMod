@@ -4,19 +4,29 @@ itemGroup.blocksTab=Random Stuff Blocks
 itemGroup.weaponsTab=Random Stuff Weapons
 
 item.gemRuby.name=Ruby
+item.gemRubyHeated.name=Heated Ruby
+
 item.shovelRuby.name=Ruby Shovel
+item.shovelRubyHeated.name=Heated Ruby Shovel
+
 item.pickaxeRuby.name=Ruby Pickaxe
-item.axeRuby.name=Ruby Axe
+item.pickaxeRubyHeated.name=Heated Ruby Pickaxe
 
 item.swordRuby.name=Ruby Sword
 item.swordRubyHeated.name=Heated Ruby Sword
 item.swordRubyInfusedIron.name=Iron Infused Ruby Sword
 item.swordrubyInfusedGold.name=Gold Infused Ruby Sword
+item.swordRubyInfusedDiamond.name=Diamond Infused Ruby Sword
+
+item.axeRuby.name=Ruby Axe
+item.axeRubyHeated.name=Heated Ruby Axe
 
 item.stirip.name=Saddle Stirip
 item.stiripDouble.name=Saddle Stirips
 item.buckle.name=Metal Buckle
 
 
+
 tile.blockRuby.name=Ruby Block
 tile.oreRuby.name=Ruby Ore
+tile.oreTin.name=Tin Ore

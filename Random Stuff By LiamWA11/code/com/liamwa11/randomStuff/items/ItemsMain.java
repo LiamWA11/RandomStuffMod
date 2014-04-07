@@ -35,20 +35,20 @@ public class ItemsMain extends RandomStuffMain{
 	 public static Item axeRuby;
 	 public static Item swordRuby;
 	 
-	 public static Item stirip; //NEED TEXTURE
-	 public static Item stiripDouble; //NEED TEXTURE
+	 public static Item stirip;
+	 public static Item stiripDouble;
 	 public static Item buckle; //NEED TEXTURE
 	 
 	 public static Item gemRubyHeated; //For Making HARDENED TOOLS - ALLOYS/REENFORCED MATERIAL
 	 
 	 public static Item swordRubyHeated;
-	 public static Item axeRubyHeated; //Need to complete
+	 public static Item axeRubyHeated; //NEED TEXTURE
 	 public static Item pickaxeRubyHeated; //Need to complete
 	 public static Item shovelRubyHeated; //Need to complete
 	 
 	 
 	 public static Item swordRubyInfusedIron;
-	 public static Item swordrubyInfusedGold;
+	 public static Item swordrubyInfusedGold; //NEED TEXTURE
 	 public static Item swordRubyInfusedDiamond; //Need to complete
 	 
 	 public static void loadItems(){
@@ -69,7 +69,8 @@ public class ItemsMain extends RandomStuffMain{
 		 axeRuby = new CustomAxe(MATERIALgemRuby).setUnlocalizedName("axeRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "axeRuby");
 		 GameRegistry.registerItem(axeRuby, "axeRuby");
 
-		 
+		 axeRubyHeated = new CustomAxe(MATERIALgemRubyHeated).setUnlocalizedName("axeRubyHeated").setCreativeTab(toolsTab).setTextureName(modid + ":" + "axeRuby");
+		 GameRegistry.registerItem(axeRubyHeated, "axeRubyHeated");
 		 
 		 //WEAPON
 		 swordRuby = new CustomSword(MATERIALgemRuby).setUnlocalizedName("swordRuby").setCreativeTab(weaponsTab).setTextureName(modid + ":" + "swordRuby");
@@ -83,6 +84,8 @@ public class ItemsMain extends RandomStuffMain{
 		 
 		 swordrubyInfusedGold = new CustomSword(MATERIALgemRubyInfusedGold).setUnlocalizedName("swordrubyInfusedGold").setCreativeTab(weaponsTab).setTextureName(modid + ":" + "swordrubyInfusedGold");
 		 GameRegistry.registerItem(swordrubyInfusedGold, "swordrubyInfusedGold");
+		 
+		 
 		 
 		 //Items
 	     stirip = new Item().setCreativeTab(itemsTab).setUnlocalizedName("stirip").setTextureName(modid + ":" + "stirip");

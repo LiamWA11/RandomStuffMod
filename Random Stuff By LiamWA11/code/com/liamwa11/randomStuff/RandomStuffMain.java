@@ -32,6 +32,9 @@ public class RandomStuffMain {
 	public static final Item.ToolMaterial MATERIALgemRubyInfusedGold =
 			EnumHelper.addToolMaterial("MATERIALgemRubyInfusedGold", 3, 2150, 16.0f, 4.10f, 40);
 	
+	public static final Item.ToolMaterial MATERIALgemRubyInfusedDiamond =
+			EnumHelper.addToolMaterial("MATERIALgemRubyInfusedDiamond", 4, 2400, 18.0f, 4.75f, 34);
+	
 	
 	public static final String modid = "randomstuff";
 	public static final String version = "0.01 ALPHA";
