@@ -1,9 +1,8 @@
 package com.liamwa11.randomStuff.items;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 
 import com.liamwa11.randomStuff.RandomStuffMain;
 
@@ -53,6 +52,7 @@ public class ItemsMain extends RandomStuffMain{
 	 
 	 public static void loadItems(){
 		 
+		 
 		 //Gems
 		 gemRuby = new Item().setCreativeTab(itemsTab).setUnlocalizedName("gemRuby").setTextureName(modid + ":" + "ruby");
 		 GameRegistry.registerItem(gemRuby, "Gem Ruby");
@@ -69,7 +69,7 @@ public class ItemsMain extends RandomStuffMain{
 		 axeRuby = new CustomAxe(MATERIALgemRuby).setUnlocalizedName("axeRuby").setCreativeTab(toolsTab).setTextureName(modid + ":" + "axeRuby");
 		 GameRegistry.registerItem(axeRuby, "axeRuby");
 
-		 axeRubyHeated = new CustomAxe(MATERIALgemRubyHeated).setUnlocalizedName("axeRubyHeated").setCreativeTab(toolsTab).setTextureName(modid + ":" + "axeRuby");
+		 axeRubyHeated = new CustomAxe(MATERIALgemRubyHeated).setUnlocalizedName("axeRubyHeated").setCreativeTab(toolsTab).setTextureName(modid + ":" + "axeRubyHeated");
 		 GameRegistry.registerItem(axeRubyHeated, "axeRubyHeated");
 		 
 		 //WEAPON
@@ -96,6 +96,13 @@ public class ItemsMain extends RandomStuffMain{
 	     
 	     buckle = new Item().setCreativeTab(itemsTab).setUnlocalizedName("buckle").setTextureName(modid + ":" + "buckle");
 	     GameRegistry.registerItem(buckle, "Buckle");
+	     
+	     
+	     
+	     
+	     
+	     
+	     
 	     
 	 }
 	 

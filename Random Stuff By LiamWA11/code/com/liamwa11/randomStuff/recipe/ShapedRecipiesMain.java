@@ -46,9 +46,9 @@ public class ShapedRecipiesMain{
 		 
 		 
 		 
-		 //CraftingManager.getInstance().addRecipe(new ItemStack(BlocksMain.blockRuby), new Object[]{
-		 	// "AAA", "AAA", "AAA", 'A', ItemsMain.gemRuby
-		 //});
+		 GameRegistry.addRecipe(new ItemStack(BlocksMain.blockRuby), new Object[]{
+		     "AAA", "AAA", "AAA", 'A', ItemsMain.gemRuby
+		 });
 		 
 		 //ITEMS
 		 

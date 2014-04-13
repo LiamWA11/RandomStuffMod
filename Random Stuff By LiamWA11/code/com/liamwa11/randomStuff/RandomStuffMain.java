@@ -6,6 +6,7 @@ import net.minecraftforge.common.util.EnumHelper;
 import com.liamwa11.randomStuff.blocks.BlocksMain;
 import com.liamwa11.randomStuff.items.ItemsMain;
 import com.liamwa11.randomStuff.materials.MaterialsMain;
+import com.liamwa11.randomStuff.oreDictionary.OreDictionaryMain;
 import com.liamwa11.randomStuff.recipe.FurnaceRecipesMain;
 import com.liamwa11.randomStuff.recipe.ShapedRecipiesMain;
 import com.liamwa11.randomStuff.recipe.ShapelessRecipiesMain;
@@ -62,6 +63,7 @@ public class RandomStuffMain {
 		ShapelessRecipiesMain.loadShapelessRecipies();
 		//proxy.regsterTileEntities();
 		FurnaceRecipesMain.loadFurnaceRecipies();
+		OreDictionaryMain.loadOreDictionary();
 		
 
 	}
