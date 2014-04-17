@@ -40,12 +40,12 @@ public class RandomStuffMain {
 	
 	
 	public static final String modid = "randomstuff";
-	public static final String version = "0.01 ALPHA";
+	public static final String version = "0.03 ALPHA - Public Compiled Version";
 	public static final String CLIENTPROXY = modid + ".core.proxy.ClientProxy";
 	public static final String COMMONPROXY = modid + ".core.proxy.CommonProxy";
 	
 	//@SidedProxy(clientSide = CLIENTPROXY, serverSide = COMMONPROXY)
-	//public static CommonProxy proxy;
+	//public static CommonProxy Proxy;
 	
 	@EventHandler
 	public void preinit(FMLPreInitializationEvent event){
