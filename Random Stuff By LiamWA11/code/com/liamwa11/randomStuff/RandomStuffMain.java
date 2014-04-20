@@ -13,6 +13,8 @@ import com.liamwa11.randomStuff.recipe.ShapelessRecipiesMain;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 
@@ -38,12 +40,12 @@ public class RandomStuffMain {
 	
 	
 	public static final String modid = "randomstuff";
-	public static final String version = "0.01 ALPHA";
+	public static final String version = "0.03 ALPHA - Public Compiled Version";
 	public static final String CLIENTPROXY = modid + ".core.proxy.ClientProxy";
 	public static final String COMMONPROXY = modid + ".core.proxy.CommonProxy";
 	
 	//@SidedProxy(clientSide = CLIENTPROXY, serverSide = COMMONPROXY)
-	//public static CommonProxy proxy;
+	//public static CommonProxy Proxy;
 	
 	@EventHandler
 	public void preinit(FMLPreInitializationEvent event){
@@ -56,16 +58,32 @@ public class RandomStuffMain {
 		
 		
 		//LOADING OTHER CLASSES
-		ItemsMain.loadItems();
 		MaterialsMain.loadMaterials();
-		ShapedRecipiesMain.loadShapedRecipies();
+		ItemsMain.loadItems();
 		BlocksMain.loadBlocks();
-		ShapelessRecipiesMain.loadShapelessRecipies();
-		//proxy.regsterTileEntities();
-		FurnaceRecipesMain.loadFurnaceRecipies();
 		OreDictionaryMain.loadOreDictionary();
 		
+		//proxy.regsterTileEntities();
+		
+		
+		
 
+	}
+	
+	@EventHandler
+	public void init(FMLInitializationEvent event){
+		
+		//Tile Entites & Events
+		
+	}
+	
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event){
+		
+		//Recipies & Addon support
+		FurnaceRecipesMain.loadFurnaceRecipies();
+		ShapedRecipiesMain.loadShapedRecipies();
+		ShapelessRecipiesMain.loadShapelessRecipies();
 	}
 	
 }

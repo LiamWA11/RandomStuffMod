@@ -5,6 +5,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
+import com.liamwa11.randomStuff.creativeTab.CreativeTabMain;
 import com.liamwa11.randomStuff.tileent.TestTileEntity;
 
 public class TestTileBlock extends Block {
@@ -14,7 +15,7 @@ public class TestTileBlock extends Block {
 	{
 		super(Material.rock);
 		this.setBlockName("TestTileBlock");
-		this.setCreativeTab(BlocksMain.blocksTab);
+		this.setCreativeTab(CreativeTabMain.tabMain);
 		//ModBlocks.register(this);
 	}
 	@Override

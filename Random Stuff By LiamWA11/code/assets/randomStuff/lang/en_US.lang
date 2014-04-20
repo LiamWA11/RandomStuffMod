@@ -1,10 +1,7 @@
-itemGroup.itemsTab=Random Stuff Items
-itemGroup.toolsTab=Random Stuff Tools
-itemGroup.blocksTab=Random Stuff Blocks
-itemGroup.weaponsTab=Random Stuff Weapons
+itemGroup.tabMain=Random Stuff Mod (Work In Progress)
 
 item.gemRuby.name=Ruby
-item.gemRubyHeated.name=Heated Ruby
+item.gemRubyHeated.name=Heated Ruby (WIP)
 
 item.shovelRuby.name=Ruby Shovel
 item.shovelRubyHeated.name=Heated Ruby Shovel
@@ -30,3 +27,7 @@ item.buckle.name=Metal Buckle
 tile.blockRuby.name=Ruby Block
 tile.oreRuby.name=Ruby Ore
 tile.oreTin.name=Tin Ore
+tile.whiteRock.name=Marble
+tile.whiteRockCobble.name=Marble Cobblestone
+tile.blackRockCobble.name=Basalt Cobblestone
+tile.blackRock.name=Basalt
