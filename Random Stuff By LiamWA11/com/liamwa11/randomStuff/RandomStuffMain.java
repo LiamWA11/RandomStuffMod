@@ -58,10 +58,10 @@ public class RandomStuffMain {
 		
 		
 		//LOADING OTHER CLASSES
-		ItemsMain.loadItems();
 		MaterialsMain.loadMaterials();
-		OreDictionaryMain.loadOreDictionary();
+		ItemsMain.loadItems();
 		BlocksMain.loadBlocks();
+		OreDictionaryMain.loadOreDictionary();
 		
 		//proxy.regsterTileEntities();
 		

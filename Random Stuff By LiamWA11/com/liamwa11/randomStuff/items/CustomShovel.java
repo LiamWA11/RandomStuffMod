@@ -1,5 +1,8 @@
 package com.liamwa11.randomStuff.items;
 
+import com.liamwa11.randomStuff.RandomStuffMain;
+import com.liamwa11.randomStuff.creativeTab.CreativeTabMain;
+
 import net.minecraft.item.ItemSpade;
 
 public class CustomShovel extends ItemSpade{
@@ -10,4 +13,13 @@ public class CustomShovel extends ItemSpade{
 		
 	}
 
+	{
+		
+		String unlocalizedName = this.getUnlocalizedName();
+		
+		this.setCreativeTab(CreativeTabMain.tabMain);
+
+		
+	}
+	
 }

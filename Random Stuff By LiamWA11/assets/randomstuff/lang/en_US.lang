@@ -22,8 +22,16 @@ item.stirip.name=Saddle Stirip
 item.stiripDouble.name=Saddle Stirips
 item.buckle.name=Metal Buckle
 
+item.ingotTin.name=Tin Ingot
+item.ingotSteel.name=Steel Ingot
+
 
 
 tile.blockRuby.name=Ruby Block
+tile.blockTin.name=Tin Block
 tile.oreRuby.name=Ruby Ore
 tile.oreTin.name=Tin Ore
+tile.whiteRock.name=Marble
+tile.whiteRockCobble.name=Marble Cobblestone
+tile.blackRockCobble.name=Basalt Cobblestone
+tile.blackRock.name=Basalt

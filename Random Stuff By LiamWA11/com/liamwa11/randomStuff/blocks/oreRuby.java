@@ -2,6 +2,7 @@ package com.liamwa11.randomStuff.blocks;
 
 import java.util.Random;
 
+import com.liamwa11.randomStuff.creativeTab.CreativeTabMain;
 import com.liamwa11.randomStuff.items.ItemsMain;
 
 import net.minecraft.block.Block;
@@ -19,7 +20,9 @@ public class oreRuby extends Block{
 		return ItemsMain.gemRuby;
 	}
 	
-	
+	{
+		this.setCreativeTab(CreativeTabMain.tabMain);
+	}
 
 
 }
