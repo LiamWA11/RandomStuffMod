@@ -21,6 +21,12 @@ public class ShapelessRecipiesMain {
 		CraftingManager.getInstance().addShapelessRecipe(new ItemStack(BlocksMain.whiteRockCobble), new Object[]{
 			new ItemStack(BlocksMain.whiteRock)
 		});
+		CraftingManager.getInstance().addShapelessRecipe(new ItemStack(BlocksMain.blackRock), new Object[]{
+			new ItemStack(Blocks.stone), new ItemStack(Items.dye, 1)
+		});
+		CraftingManager.getInstance().addShapelessRecipe(new ItemStack(BlocksMain.blackRockCobble), new Object[]{
+			new ItemStack(BlocksMain.blackRock)
+		});
 		
 	}
 	

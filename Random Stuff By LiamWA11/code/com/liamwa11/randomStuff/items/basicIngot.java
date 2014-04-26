@@ -1,24 +1,18 @@
 package com.liamwa11.randomStuff.items;
 
+import net.minecraft.item.Item;
+
 import com.liamwa11.randomStuff.RandomStuffMain;
 import com.liamwa11.randomStuff.creativeTab.CreativeTabMain;
 
-import net.minecraft.item.ItemSword;
-
-public class CustomSword extends ItemSword{
-
-	public CustomSword(ToolMaterial material)
-	{
-		super(material);
-	}
+public class basicIngot extends Item{
 	
 	{
-		
+	
 		String unlocalizedName = this.getUnlocalizedName();
 		
 		this.setCreativeTab(CreativeTabMain.tabMain);
-
-		
+	
 	}
 	
 }

@@ -10,6 +10,7 @@ import com.liamwa11.randomStuff.oreDictionary.OreDictionaryMain;
 import com.liamwa11.randomStuff.recipe.FurnaceRecipesMain;
 import com.liamwa11.randomStuff.recipe.ShapedRecipiesMain;
 import com.liamwa11.randomStuff.recipe.ShapelessRecipiesMain;
+import com.liamwa11.randomStuff.world.WorldGenMain;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -49,7 +50,7 @@ public class RandomStuffMain {
 	
 	@EventHandler
 	public void preinit(FMLPreInitializationEvent event){
-		 
+		
 		
 
 		//CREATIVE TABS
@@ -62,6 +63,7 @@ public class RandomStuffMain {
 		ItemsMain.loadItems();
 		BlocksMain.loadBlocks();
 		OreDictionaryMain.loadOreDictionary();
+		
 		
 		//proxy.regsterTileEntities();
 		

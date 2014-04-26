@@ -25,6 +25,10 @@ public class ShapedRecipiesMain{
 		 	 "AAA", " B ", " B ", 'A', ItemsMain.gemRuby, 'B', Items.stick
 		 });
 		 
+		 CraftingManager.getInstance().addRecipe(new ItemStack(BlocksMain.blockTin), new Object[]{
+			 "aaa", "aaa", "aaa", 'a', ItemsMain.ingotTin
+		 });
+		 
 		 GameRegistry.addRecipe(new ItemStack(ItemsMain.axeRuby), new Object[]{
 		 	 "AA ", "AB ", " B ", 'A', ItemsMain.gemRuby, 'B', Items.stick
 		 });
@@ -42,6 +46,18 @@ public class ShapedRecipiesMain{
 		 
 		 GameRegistry.addRecipe(new ItemStack(ItemsMain.swordRubyInfusedIron), new Object[]{
 		 	 "ABA", "BCB", "ABA", 'A', Items.iron_ingot, 'B', Blocks.iron_block, 'C', ItemsMain.swordRubyHeated
+		 });
+		 
+		 CraftingManager.getInstance().addRecipe(new ItemStack(ItemsMain.swordrubyInfusedGold), new Object[]{
+			"ABA", "BCB", "ABA", 'A', Items.gold_ingot, 'B', Blocks.gold_block, 'C', ItemsMain.swordRubyHeated 
+		 });
+		 
+		 CraftingManager.getInstance().addRecipe(new ItemStack(ItemsMain.swordRubyInfusedDiamond), new Object[]{
+			 "aba", "bcb", "aba", 'a', Items.diamond, 'b', Blocks.diamond_block, 'c', ItemsMain.swordRubyHeated
+		 });
+		 
+		 CraftingManager.getInstance().addRecipe(new ItemStack(ItemsMain.swordRubyHeated), new Object[]{
+			" A ", " A ", " B ", 'A', ItemsMain.gemRubyHeated, 'B', Items.stick 
 		 });
 		 
 		 

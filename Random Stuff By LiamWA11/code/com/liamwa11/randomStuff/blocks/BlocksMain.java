@@ -15,6 +15,9 @@ public class BlocksMain {
 //	   };
 	
 	public static Block blockRuby;
+	public static Block blockTin;
+	public static Block blockSteel;
+	
 	public static Block oreRuby;
 	public static Block oreTin;
 	
@@ -30,23 +33,29 @@ public class BlocksMain {
 		blockRuby = new basicBlock().setBlockName("blockRuby").setCreativeTab(CreativeTabMain.tabMain).setBlockTextureName(RandomStuffMain.modid + ":" + "blockRuby").setHardness(3f);
 		GameRegistry.registerBlock(blockRuby, "blockRuby");
 		
-		oreRuby = new oreRuby().setBlockName("oreRuby").setCreativeTab(CreativeTabMain.tabMain).setBlockTextureName(RandomStuffMain.modid + ":" + "oreRuby").setHardness(3f);
+		oreRuby = new oreRuby().setBlockName("oreRuby").setBlockTextureName(RandomStuffMain.modid + ":" + "oreRuby").setHardness(3f);
 		GameRegistry.registerBlock(oreRuby, "oreRuby");
 		
-		oreTin = new basicBlock().setBlockName("oreTin").setCreativeTab(CreativeTabMain.tabMain).setBlockTextureName(RandomStuffMain.modid + ":" + "oreTin").setHardness(3f);
+		oreTin = new basicBlock().setBlockName("oreTin").setBlockTextureName(RandomStuffMain.modid + ":" + "oreTin").setHardness(3f);
 		GameRegistry.registerBlock(oreTin, "oreTin");
 		
-		whiteRock = new basicBlock().setBlockName("whiteRock").setCreativeTab(CreativeTabMain.tabMain).setBlockTextureName(RandomStuffMain.modid + ":" + "whiteRock" );
+		whiteRock = new basicBlock().setBlockName("whiteRock").setBlockTextureName(RandomStuffMain.modid + ":" + "whiteRock" );
 		GameRegistry.registerBlock(whiteRock, "whiteRock");
 		
-		whiteRockCobble = new basicBlock().setBlockName("whiteRockCobble").setCreativeTab(CreativeTabMain.tabMain).setBlockTextureName(RandomStuffMain.modid + ":" + "whiteRockCobble" );
+		whiteRockCobble = new basicBlock().setBlockName("whiteRockCobble").setBlockTextureName(RandomStuffMain.modid + ":" + "whiteRockCobble" );
 		GameRegistry.registerBlock(whiteRockCobble, "whiteRockCobble");
 		
-		blackRock = new basicBlock().setBlockName("blackRock").setCreativeTab(CreativeTabMain.tabMain).setBlockTextureName(RandomStuffMain.modid + ":" + "blackRock");
+		blackRock = new basicBlock().setBlockName("blackRock").setBlockTextureName(RandomStuffMain.modid + ":" + "blackRock");
 		GameRegistry.registerBlock(blackRock, "blackRock");
 		
-		blackRockCobble = new basicBlock().setBlockName("blackRockCobble").setCreativeTab(CreativeTabMain.tabMain).setBlockTextureName(RandomStuffMain.modid + ":" + "blackRockCobble");
+		blackRockCobble = new basicBlock().setBlockName("blackRockCobble").setBlockTextureName(RandomStuffMain.modid + ":" + "blackRockCobble");
 		GameRegistry.registerBlock(blackRockCobble, "blackRockCobble");
+		
+		blockTin = new basicBlock().setBlockName("blockTin").setBlockTextureName(RandomStuffMain.modid + ":" + "blockTin");
+		GameRegistry.registerBlock(blockTin, "blockTin");
+		
+		blockSteel = new basicBlock().setBlockName("blockSteel").setBlockTextureName(RandomStuffMain.modid + ":" + "blockSteel");
+		GameRegistry.registerBlock(blockSteel, "blockSteel");
 		
 		//testTileBlock = new TestTileBlock();
 	}

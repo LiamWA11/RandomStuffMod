@@ -29,13 +29,16 @@ public class ItemsMain extends RandomStuffMain{
 	 //RUBY GEM
 	    
 	 public static Item gemRuby;
+	 
 	 public static Item shovelRuby;
 	 public static Item pickaxeRuby;
 	 public static Item axeRuby;
 	 public static Item swordRuby;
+	 
 	 public static Item stirip;
 	 public static Item stiripDouble;
 	 public static Item buckle; //NEED TEXTURE
+	 
 	 public static Item gemRubyHeated; //For Making HARDENED TOOLS - ALLOYS/REENFORCED MATERIAL -NEED TEXTURE
 	 public static Item swordRubyHeated;
 	 public static Item axeRubyHeated; //NEED TEXTURE
@@ -77,8 +80,8 @@ public class ItemsMain extends RandomStuffMain{
 		 swordRubyInfusedDiamond = new CustomSword(MATERIALgemRubyInfusedDiamond).setUnlocalizedName("swordRubyInfusedDiamond").setTextureName(RandomStuffMain.modid + ":" + "swordRubyInfusedDiamond");
 		 		 
 		 //Items
-	     stirip = new basicItem().setUnlocalizedName("stirip").setTextureName(RandomStuffMain.modid + ":" + "stirip");
-	     stiripDouble = new basicItem().setUnlocalizedName("stiripDouble").setTextureName(RandomStuffMain.modid + ":" + "stiripDouble");
+	     stirip = new basicItem().setUnlocalizedName("stirip").setTextureName(RandomStuffMain.modid + ":" + "stirrup");
+	     stiripDouble = new basicItem().setUnlocalizedName("stiripDouble").setTextureName(RandomStuffMain.modid + ":" + "stirrupDouble");
 	     buckle = new basicItem().setUnlocalizedName("buckle").setTextureName(RandomStuffMain.modid + ":" + "buckle");
 	     
 	     //INGOTS
