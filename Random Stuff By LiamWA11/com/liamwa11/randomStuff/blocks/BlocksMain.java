@@ -26,6 +26,10 @@ public class BlocksMain {
 	
 	public static Block whiteRockCobble;
 	public static Block blackRockCobble;
+	
+	public static Block blueStone;
+	public static Block greenStone;
+	public static Block redStone;
 	//public static Block testTileBlock;
 	
 	public static void loadBlocks(){
@@ -57,6 +61,14 @@ public class BlocksMain {
 		blockSteel = new basicBlock().setBlockName("blockSteel").setBlockTextureName(RandomStuffMain.modid + ":" + "blockSteel");
 		GameRegistry.registerBlock(blockSteel, "blockSteel");
 		
+		blueStone = new glowBlocks().setBlockName("blueStone").setBlockTextureName(RandomStuffMain.modid + ":" + "blueStone");
+		GameRegistry.registerBlock(blueStone, "blueStone");
+		
+		greenStone = new glowBlocks().setBlockName("greenStone").setBlockTextureName(RandomStuffMain.modid + ":" + "greenStone");
+		GameRegistry.registerBlock(greenStone, "greenStone");
+		
+		redStone = new glowBlocks().setBlockName("redStone").setBlockTextureName(RandomStuffMain.modid + ":" + "redStone");
+		GameRegistry.registerBlock(redStone, "redStone");
 		//testTileBlock = new TestTileBlock();
 	}
 	

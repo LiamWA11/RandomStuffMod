@@ -3,7 +3,7 @@
   "modid": "randomstuff",
   "name": "Random Stuff Mod",
   "description": "This is a mod made by LiamWA11 that adds lots of random things to Minecraft",
-  "version": "0.4.2 ALPHA",
+  "version": "0.4.3 ALPHA",
   "mcversion": "${mcversion}",
   "url": "github.com/liamwa11/RandomStuffMod",
   "updateUrl": "",
