@@ -17,6 +17,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 
 @Mod(modid = RandomStuffMain.modid, version = RandomStuffMain.version)
@@ -63,7 +64,7 @@ public class RandomStuffMain {
 		ItemsMain.loadItems();
 		BlocksMain.loadBlocks();
 		OreDictionaryMain.loadOreDictionary();
-		
+		WorldGenMain.loadWorld();
 		
 		//proxy.regsterTileEntities();
 		
@@ -76,6 +77,8 @@ public class RandomStuffMain {
 	public void init(FMLInitializationEvent event){
 		
 		//Tile Entites & Events
+		
+		GameRegistry.registerWorldGenerator(eventmanager);
 		
 	}
 	

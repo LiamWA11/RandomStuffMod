@@ -36,3 +36,7 @@ tile.whiteRock.name=Marble
 tile.whiteRockCobble.name=Marble Cobblestone
 tile.blackRockCobble.name=Basalt Cobblestone
 tile.blackRock.name=Basalt
+
+tile.blueStone.name=Blue Glowstone
+tile.greenStone.name=Green Glowstone
+tile.redStone.name=Red Glowstone

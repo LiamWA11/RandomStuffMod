@@ -1,4 +1,4 @@
-package com.liamwa11.randomStuff.world;
+package com.liamwa11.randmStuff.eventmanager;
 
 import java.util.Random;
 
@@ -12,10 +12,10 @@ import com.liamwa11.randomStuff.blocks.BlocksMain;
 
 import cpw.mods.fml.common.IWorldGenerator;
 
-public class WorldGenMain implements IWorldGenerator{
+public class EventManager implements IWorldGenerator{
 
-	public static void loadWorld(){}
-  
+
+	
 	/**
      * Method to get what world we are generating.
      * For each case, we can have a different generator (0 = overworld, 1 = end, -1 = nether)
@@ -92,5 +92,5 @@ public class WorldGenMain implements IWorldGenerator{
            new WorldGenMinable(block, (minVainSize + random.nextInt(maxVainSize - minVainSize)), Blocks.stone).generate(world, random, posX, posY, posZ);
        }
    }
- 
+
 }
