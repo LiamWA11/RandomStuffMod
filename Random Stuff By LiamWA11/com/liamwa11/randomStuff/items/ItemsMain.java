@@ -25,7 +25,11 @@ public class ItemsMain extends RandomStuffMain{
 //    		 return swordRuby;
 //    	 }
 //    	 };
-     
+     //FOOD
+	
+	 public static Item testFood;
+	
+	
 	 //RUBY GEM
 	    
 	 public static Item gemRuby;
@@ -58,6 +62,9 @@ public class ItemsMain extends RandomStuffMain{
 	 public static Item ingotSteel;
 	 
 	 public static void loadItems(){
+		 
+		 //FOOD
+		 testFood = new testFood().setUnlocalizedName("testFood").setTextureName(RandomStuffMain.modid + ":" + "testFood");
 		 
 		 
 		 //Gems
@@ -108,6 +115,7 @@ public class ItemsMain extends RandomStuffMain{
 	     GameRegistry.registerItem(axeRuby, "axeRuby");
 	     GameRegistry.registerItem(axeRubyHeated, "axeRubyHeated");
 	     GameRegistry.registerItem(ingotSteel, "ingotSteel");
+	     GameRegistry.registerItem(testFood, "testFood");
 	     
 	     
 	 }

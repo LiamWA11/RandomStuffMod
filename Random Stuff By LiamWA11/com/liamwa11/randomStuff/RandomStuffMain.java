@@ -3,6 +3,7 @@ package com.liamwa11.randomStuff;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 
+import com.liamwa11.randmStuff.eventmanager.EventManager;
 import com.liamwa11.randomStuff.blocks.BlocksMain;
 import com.liamwa11.randomStuff.items.ItemsMain;
 import com.liamwa11.randomStuff.materials.MaterialsMain;
@@ -17,6 +18,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 
 @Mod(modid = RandomStuffMain.modid, version = RandomStuffMain.version)
@@ -44,6 +46,10 @@ public class RandomStuffMain {
 	public static final String version = "0.03 ALPHA - Public Compiled Version";
 	public static final String CLIENTPROXY = modid + ".core.proxy.ClientProxy";
 	public static final String COMMONPROXY = modid + ".core.proxy.CommonProxy";
+
+	EventManager eventmanager = new EventManager();
+	
+	//private IWorldGenerator eventmanager;
 	
 	//@SidedProxy(clientSide = CLIENTPROXY, serverSide = COMMONPROXY)
 	//public static CommonProxy Proxy;
@@ -76,6 +82,8 @@ public class RandomStuffMain {
 	public void init(FMLInitializationEvent event){
 		
 		//Tile Entites & Events
+		
+		GameRegistry.registerWorldGenerator(eventmanager, 0);
 		
 	}
 	
